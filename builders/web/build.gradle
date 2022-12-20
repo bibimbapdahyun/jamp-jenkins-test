@@ -1,0 +1,10 @@
+plugins {
+    id 'war'
+}
+
+dependencies {
+    compileOnly 'javax.servlet:javax.servlet-api:4.0.1'
+
+    implementation project(":builders:services")
+    implementation project(":builders:utils")
+}

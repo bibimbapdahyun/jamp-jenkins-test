@@ -1,0 +1,13 @@
+jar {
+    manifest {
+        attributes 'main-class': 'com.builders.admin.AdminEntryPoint'
+    }
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it)}
+    }
+}
+
+dependencies {
+    implementation project(":builders:services")
+    implementation project(":builders:utils")
+}
