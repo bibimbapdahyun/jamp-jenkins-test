@@ -11,7 +11,7 @@
         <version>1.0.0</version>
     </parent>
 
-    <groupId>admin</groupId>
+    <groupId>com.builders.admin</groupId>
     <artifactId>builders-admin</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>

@@ -10,7 +10,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>services</groupId>
+    <groupId>com.builders.services</groupId>
     <artifactId>builders-services</artifactId>
     <version>1.0.0</version>
 
